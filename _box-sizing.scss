@@ -1,0 +1,10 @@
+@mixin box-sizing($value: border-box) {
+    * {
+        box-sizing: $value;
+
+        &::before,
+        &::after {
+            box-sizing: inherit;
+        }
+    }
+}

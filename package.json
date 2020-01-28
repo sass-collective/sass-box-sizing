@@ -1,10 +1,13 @@
 {
     "version": "1.0.0",
+    "main": "_box-sizing.scss",
     "scripts": {},
     "engines": {
         "node": ">=10.0.0",
         "npm": ">=6.0.0"
     },
     "devDependencies": {},
-    "dependencies": {}
+    "dependencies": {
+        "sass": "^1.25.0"
+    }
 }
