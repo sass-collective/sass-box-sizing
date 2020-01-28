@@ -1,1 +1,3 @@
-# sass-box-sizing
+# Sass Box Sizing
+
+Generate global HTML box-sizing CSS.
