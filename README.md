@@ -4,13 +4,13 @@ Generate global CSS box-sizing.
 
 ## Install
 
-    npm install sass-box-sizing --save
+    npm install @sass-collective/sass-box-sizing --save
 
 ## Usage
 
 ### Scss
 
-    @import "sass-box-sizing/box-sizing"
+    @import "@sass-collective/sass-box-sizing/box-sizing"
     
     @include box-sizing();
     
