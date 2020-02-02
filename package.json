@@ -1,7 +1,7 @@
 {
     "name": "sass-box-sizing",
     "version": "1.0.0",
-    "main": "_box-sizing.scss",
+    "main": "box-sizing.scss",
     "scripts": {},
     "engines": {
         "node": ">=10.0.0",

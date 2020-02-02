@@ -12,7 +12,7 @@ Generate global CSS box-sizing.
 
     @import "sass-box-sizing/box-sizing"
     
-    @include box-sizing;
+    @include box-sizing();
     
 ### CSS
 
@@ -27,5 +27,5 @@ Generate global CSS box-sizing.
     
 ## Options
 
-* ``content-box``
-* ``border-box`` _(default)_
+* ``border`` _(default)_
+* ``content``

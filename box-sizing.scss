@@ -6,7 +6,15 @@
 //
 // ========================================================================= //
 
-@mixin box-sizing($value: border-box) {
+@mixin box-sizing($value: border) {
+    @if ($value == border) {
+        $value: border-box
+    }
+
+    @if ($value == content) {
+        $value: content-box
+    }
+
     * {
         box-sizing: $value;
 
