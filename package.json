@@ -1,6 +1,7 @@
 {
     "name": "@sass-collective/sass-box-sizing",
     "version": "1.0.0",
+    "description": "Generate global CSS box-sizing.",
     "main": "box-sizing.scss",
     "scripts": {},
     "engines": {
@@ -10,5 +11,20 @@
     "devDependencies": {},
     "dependencies": {
         "sass": "^1.25.0"
+    },
+    "keywords": [
+        "css",
+        "sass",
+        "front-end"
+    ],
+    "author": "The Sass Collective Authors",
+    "license": "MIT",
+    "homepage": "https://github.com/sass-collective/sass-box-sizing",
+    "bugs": {
+        "url": "https://github.com/sass-collective/sass-box-sizing/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sass-collective/sass-box-sizing.git"
     }
 }
