@@ -8,7 +8,7 @@ Generate global CSS box-sizing.
 
 ## Usage
 
-### Scss
+### Sass
 
     @import "@sass-collective/sass-box-sizing/box-sizing"
     
