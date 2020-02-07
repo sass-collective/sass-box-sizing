@@ -2,6 +2,12 @@
 //                                            MIXINS                                             //
 // ============================================================================================= //
 
+//
+// box-sizing()
+//
+// @param {string} $value Type of box-sizing, "border" or "content".
+//
+
 @mixin box-sizing($value: border) {
     @if ($value == border) {
         $value: border-box
