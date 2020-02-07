@@ -8,21 +8,4 @@
 //
 // ========================================================================= //
 
-@mixin box-sizing($value: border) {
-    @if ($value == border) {
-        $value: border-box
-    }
-
-    @if ($value == content) {
-        $value: content-box
-    }
-
-    * {
-        box-sizing: $value;
-
-        &::before,
-        &::after {
-            box-sizing: inherit;
-        }
-    }
-}
+@import "./mixins";
