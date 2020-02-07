@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.0.2 (2020-02-07)](https://github.com/sass-collective/sass-box-sizing/compare/v1.0.1...v1.0.2)
+
+### Changed
+
+* Create ``_mixins`` file
+
 ## [v1.0.1 (2020-02-03)](https://github.com/sass-collective/sass-box-sizing/compare/v1.0.0...v1.0.1)
 
 ### Changed

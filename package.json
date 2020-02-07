@@ -1,6 +1,6 @@
 {
     "name": "@sass-collective/sass-box-sizing",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Generate global CSS box-sizing.",
     "main": "box-sizing.scss",
     "scripts": {},
