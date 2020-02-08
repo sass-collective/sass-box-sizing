@@ -8,11 +8,17 @@ Generate global CSS box-sizing.
 
 ## Usage
 
-### Sass
+### Module System
 
-    @import "@sass-collective/sass-box-sizing/box-sizing"
+    @use "@sass-collective/sass-box-sizing"
     
-    @include box-sizing();
+    @include sass-box-sizing.box-sizing();
+    
+### Legacy @import
+
+    @import "@sass-collective/sass-box-sizing"
+    
+    @include sass-box-sizing();
     
 ### CSS
 
